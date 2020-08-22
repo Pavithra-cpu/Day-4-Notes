@@ -1,0 +1,110 @@
+GUI-Event handlers & Components Demo
+
+Final
+-----
+used to restrict the user
+1.variable-Constant
+2.class
+3.method
+
+Is final method inherited?
+yes you can...but we cannot override it..
+
+what is blank or uninitialized final variable?
+
+class Student
+{
+int id;
+String name;
+final String PAN_CARD;
+}
+
+
+class Car
+{
+final int speedLimit;
+Car()
+{
+speedLimit=100;
+}
+}
+
+can we declare constructor as final?
+ NO
+
+static blank final variable
+-static final variable that is not initialized at the time of 
+decalration ...it can be initialized only in static block
+
+class Car
+static final int speedLImit;
+static{
+speedLimit=40;
+}
+main()
+{
+sop(Car.speedLimit)
+}
+
+Method overloading
+------------------
+-if a class has multiple methods haveing same name but different
+parameters 
+a(int .int)
+b(int,int,int)
+-advantage is to increase readability of program
+
+ways
+---
+1.by changing number of arguments
+2.by changing data type
+
+can we overload java main()?
+--------------------------
+-yes by method overloading
+
+
+method overriding
+-----------------
+-if a child class has the same method as declared in parent class
+-method overriding is used for runtime polymorphism
+
+differnce btw method overloading & method overriding
+------------------------------------------------------
+
+covariant return types
+---------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

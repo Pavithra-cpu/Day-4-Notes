@@ -1,0 +1,9 @@
+Day 4 assignemnts
+----------------
+1.with all the menus & menuitmes
+2.5 buttons,apply border layout
+b1 & b2=Action listener
+b3& b4=mouse listener
+b5=mouse motion listener
+3.final,method overloading & method overridin
+
